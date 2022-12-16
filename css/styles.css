@@ -1,0 +1,357 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--standard-black);
+}
+
+.main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-nav {
+    border-bottom: 1px solid var(--light-grey-bottom-line);
+}
+
+.header-wrapper {
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.logo-header {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
+.sub-pages {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+}
+
+.list-forsubpages {
+    list-style: none;
+    display: flex;
+    margin-left: 93px;
+}
+
+.list-portfolio {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.main-business-inner {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.team-header-inner {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.first-second-nav {
+    margin-right: 46px;
+}
+
+:root {
+    --standard-blue: #2196f3;
+    --standard-white: #ffffff;
+    --standard-black: #212121;
+    --dark-grey: #000000;
+    --light-grey: #757575;
+    --background-button-color: #f5f4fa;
+    --background-black-color: #2f303a;
+    --light-grey-bottom-line: #ececec;
+    --portfolio-grey: #eeeeee;
+}
+
+.main-header-wrapper {
+    background: var(--background-black-color);
+}
+
+.main-header {
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 280px;
+}
+
+.big-title {
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    color: var(--standard-white);
+}
+
+.portfolio-header {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.lorem-impsum-header {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.lorem-wording {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--light-grey);
+    padding-right: 30px;
+}
+
+.main-portfolio-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 30px;
+    margin-bottom: 94px;
+}
+
+.sub-portfolio-wrapper {
+    border: 1px solid var(--portfolio-grey);
+}
+
+.sub-portfolio {
+    padding-left: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main-business-wrapper {
+    padding-bottom: 94px;
+}
+
+.main-business {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-header-wrapper {
+    background: var(--background-button-color);
+    padding-bottom: 94px;
+}
+
+.list-wrapper {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.list-wrapper-portfolio {
+    padding-top: 94px;
+    padding-bottom: 56px;
+}
+
+.team-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
+
+.team-player-wrapper-2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.team-player-wrapper {
+    background: var(--standard-white);
+    border-radius: 0 0 0 4px;
+}
+
+.team-player {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-role {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--light-grey);
+    padding-top: 10px;
+}
+
+.portfolio-title {
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--light-grey);
+    letter-spacing: 0.03em;
+}
+
+.blue-font {
+    color: var(--standard-blue);
+}
+
+.white-font {
+    color: var(--standard-white);
+}
+
+.dark-grey {
+    color: var(--dark-grey);
+}
+
+.links-format {
+    text-decoration: none;
+    color: var(--standard-black);
+}
+
+.button-order {
+    font-family: 'Roboto', sans-serif;
+    color: var(--standard-white);
+    background: var(--standard-blue);
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 41px;
+    padding-right: 41px;
+}
+
+.button-services {
+    font-family: 'Roboto', sans-serif;
+    color: var(--standard-black);
+    background: var(--background-button-color);
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.display-links:hover,
+.display-links:focus {
+    color: var(--standard-blue);
+}
+
+.display-links-buttons:hover,
+.display-links-buttons:focus {
+    color: var(--standard-white);
+    background: var(--standard-blue);
+}
+
+.footer-layout {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-wrapper {
+    background: var(--background-black-color);
+}
+
+.logo-footer {
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
+.address {
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    display: block;
+}
+
+.address-wrapper {
+    padding-top: 20px;
+}
+
+.direct-address {
+    color: var(--standard-white);
+}
+
+.contact-header {
+    text-decoration: none;
+    color: var(--light-grey);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.contact-footer {
+    text-decoration: none;
+    color: var(--light-grey);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    display: block;
+}
+
+.email-wrapper {
+    padding-top: 9px;
+}
+
+.phone-wrapper {
+    padding-top: 9px;
+}
+
+.phone {
+    margin-left: 50px;
+}
