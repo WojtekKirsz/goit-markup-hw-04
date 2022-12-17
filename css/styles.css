@@ -355,3 +355,10 @@ body {
 .phone {
     margin-left: 50px;
 }
+
+.icon-envelope {
+    display: flex;
+    display: table-row;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
