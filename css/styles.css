@@ -15,6 +15,11 @@ body {
     padding-right: 15px;
 }
 
+.image-container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -95,7 +100,7 @@ body {
 }
 
 .main-header-wrapper {
-    background: var(--background-black-color);
+    background-image: url(/images/img-background.jpg);
 }
 
 .main-header {
@@ -297,8 +302,21 @@ body {
     padding-bottom: 60px;
 }
 
+.footer-composition {
+    display: flex;
+}
+
 .footer-wrapper {
     background: var(--background-black-color);
+}
+
+.footer-social {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--standard-white);
 }
 
 .logo-footer {
@@ -307,6 +325,15 @@ body {
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
+}
+
+.footer-social-wrapper {
+    padding-top: 12px;
+    padding-left: 70px;
+}
+
+.footer-social-list-wrapper {
+    padding-top: 20px;
 }
 
 .address {
@@ -391,18 +418,50 @@ body {
 }
 
 .social-icons-our-team {
-    fill: #afb1b8;
+    fill: currentColor;
+    color: #afb1b8;
+    cursor: pointer;
 }
 
 .our-clients-wrapper {
     padding-top: 94px;
-    padding-bottom: 236px;
+    padding-bottom: 94px;
 }
 
-.our-clients {
+.our-clients-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
+}
+
+.our-clients-list {
+    padding-top: 50px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.our-clients-list-item {
+    outline: 1px solid #afb1b8;
+}
+
+.our-clients-icons {
+    fill: currentColor;
+    color: #afb1b8;
+    cursor: pointer;
+}
+
+.social-icons-our-team:hover,
+.social-icons-our-team:focus {
+    color: var(--standard-white);
+    background: var(--standard-blue);
+}
+
+.our-clients-icons:hover,
+.our-clients-icons:focus {
+    color: var(--standard-blue);
+    background: var(--standard-blue);
 }
