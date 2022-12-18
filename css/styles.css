@@ -196,7 +196,7 @@ body {
 
 .team-player-wrapper-2 {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 16px;
 }
 
 .team-player-wrapper {
@@ -332,6 +332,7 @@ body {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
+    margin: 0;
 }
 
 .contact-footer {
@@ -356,9 +357,52 @@ body {
     margin-left: 50px;
 }
 
-.icon-envelope {
-    display: flex;
-    display: table-row;
-    justify-content: flex-end;
+.icon-header {
+    vertical-align: middle;
+    fill: currentColor;
     margin-right: 10px;
+}
+
+.box-lorem-ipsum {
+    background-color: var(--background-button-color);
+    padding-top: 25px;
+    padding-left: 102.34px;
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    rx: 40px;
+}
+
+.icon-lorem-ipsum {
+    fill: red;
+    margin-left: 10px;
+    padding-right: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.box-nasz-zespol-social-icons {
+    display: flex;
+    justify-content: space-around;
+    width: 206px;
+    height: 44px;
+    margin-left: 32px;
+    padding-bottom: 30px;
+}
+
+.social-icons-our-team {
+    fill: #afb1b8;
+}
+
+.our-clients-wrapper {
+    padding-top: 94px;
+    padding-bottom: 236px;
+}
+
+.our-clients {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
