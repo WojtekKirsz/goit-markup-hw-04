@@ -100,7 +100,7 @@ body {
 }
 
 .main-header-wrapper {
-    background-image: url(/images/img-background.jpg);
+    background-image: url(../images/img-background.jpg);
 }
 
 .main-header {
@@ -397,15 +397,7 @@ body {
     margin-bottom: 30px;
     width: 270px;
     height: 120px;
-    rx: 40px;
-}
-
-.icon-lorem-ipsum {
-    fill: red;
-    margin-left: 10px;
-    padding-right: 100px;
-    display: flex;
-    align-items: center;
+    border-radius: 4px;
 }
 
 .box-nasz-zespol-social-icons {
