@@ -45,11 +45,19 @@
                     </div>
                     <!-- CONTACT DETAILS -->
                     <div>
-                        <a class="contact-header display-links" href="mailto:info@devstudio.com"
-                            >info@devstudio.com</a
-                        >
-                        <a class="contact-header display-links phone" href="tel:+48111111111"
-                            >+48 111 111 111</a
+                        <a class="contact-header display-links" href="mailto:info@devstudio.com">
+                            <svg width="16" height="12" class="icon-header">
+                                <use href="./images/icons.svg#icon-envelope"></use>
+                            </svg>
+                            info@devstudio.com
+                        </a>
+
+                        <a class="contact-header display-links phone" href="tel:+48111111111">
+                            <svg width="16" height="12" class="icon-header">
+                                <use href="./images/icons.svg#icon-smartphone"></use>
+                            </svg>
+
+                            +48 111 111 111</a
                         >
                     </div>
                 </div>
@@ -204,34 +212,67 @@
             </section>
         </main>
         <footer class="footer-wrapper">
-            <div class="main-container">
-                <div class="footer-layout">
-                    <a class="logo-footer" href="#"
-                        ><span class="blue-font">Web</span><span class="white-font">Studio</span></a
-                    >
-                    <address class="address">
-                        <div class="address-wrapper">
-                            <a
-                                href="https://goo.gl/maps/4ub1VhQaPMGV6A3t7"
-                                target="_blank"
-                                class="links-format"
-                                ><span class="direct-address"
-                                    >m. Warszawa, Aleje Jerozolimskie 21</span
-                                ></a
-                            >
-                        </div>
+            <div class="footer-layout main-container">
+                <div class="footer-composition">
+                    <section>
+                        <a class="logo-footer" href="#"
+                            ><span class="blue-font">Web</span
+                            ><span class="white-font">Studio</span></a
+                        >
 
-                        <div class="email-wrapper">
-                            <a class="contact-footer display-links" href="mailto:info@example.com"
-                                >info@example.com</a
-                            >
+                        <address class="address">
+                            <div class="address-wrapper">
+                                <a
+                                    href="https://goo.gl/maps/4ub1VhQaPMGV6A3t7"
+                                    target="_blank"
+                                    class="links-format"
+                                    ><span class="direct-address"
+                                        >m. Warszawa, Aleje Jerozolimskie 21</span
+                                    ></a
+                                >
+                            </div>
+
+                            <div class="email-wrapper">
+                                <a
+                                    class="contact-footer display-links"
+                                    href="mailto:info@example.com"
+                                    >info@example.com</a
+                                >
+                            </div>
+                            <div class="phone-wrapper">
+                                <a class="contact-footer display-links" href="tel:+48111111111"
+                                    >+48 111 111 111</a
+                                >
+                            </div>
+                        </address>
+                    </section>
+                    <section class="footer-social-wrapper">
+                        <a class="footer-social">dołącz do nas</a>
+                        <div class="footer-social-list-wrapper">
+                            <ul class="list">
+                                <li>
+                                    <svg width="20" height="20" class="social-icons-our-team">
+                                        <use href="./images/icons.svg#icon-instagram-2"></use>
+                                    </svg>
+                                </li>
+                                <li>
+                                    <svg width="20" height="20" class="social-icons-our-team">
+                                        <use href="./images/icons.svg#icon-twitter-1"></use>
+                                    </svg>
+                                </li>
+                                <li>
+                                    <svg width="20" height="20" class="social-icons-our-team">
+                                        <use href="./images/icons.svg#icon-facebook-1"></use>
+                                    </svg>
+                                </li>
+                                <li>
+                                    <svg width="20" height="20" class="social-icons-our-team">
+                                        <use href="./images/icons.svg#icon-linkedin-1"></use>
+                                    </svg>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="phone-wrapper">
-                            <a class="contact-footer display-links" href="tel:+48111111111"
-                                >+48 111 111 111</a
-                            >
-                        </div>
-                    </address>
+                    </section>
                 </div>
             </div>
         </footer>
