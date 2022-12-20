@@ -293,6 +293,9 @@ body {
     padding-bottom: 6px;
     padding-left: 22px;
     padding-right: 22px;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
 }
 
 .display-links:hover,
@@ -403,9 +406,8 @@ body {
     background-color: var(--background-button-color);
     padding-top: 25px;
     padding-left: 102.34px;
+    padding-bottom: 25px;
     margin-bottom: 30px;
-    width: 270px;
-    height: 120px;
     border-radius: 4px;
 }
 
@@ -447,6 +449,11 @@ body {
 
 .our-clients-list-item {
     border: 1px solid #afb1b8;
+    width: 170px;
+    height: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .our-clients-icons {
