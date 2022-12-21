@@ -471,9 +471,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.our-clients-icons {
     fill: currentColor;
     color: #afb1b8;
     cursor: pointer;
@@ -493,8 +490,7 @@ body {
     border-radius: 50%;
 }
 
-.our-clients-icons:hover,
-.our-clients-icons:focus {
-    color: var(--standard-blue);
-    background: var(--standard-blue);
+.our-clients-list-item:hover {
+    border-color: var(--standard-blue);
+    fill: var(--standard-blue);
 }
