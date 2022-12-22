@@ -101,8 +101,8 @@ body {
 }
 
 .main-header-wrapper {
-    background-image: url(../images/img-background.jpg);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4));
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../images/img-background.jpg);
 }
 
 .main-header {
